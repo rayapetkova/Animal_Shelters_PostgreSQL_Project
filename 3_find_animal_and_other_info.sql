@@ -73,7 +73,7 @@ LANGUAGE plpgsql;
 
 
 
--- This function returns the exact location of the shelter in which the animal you chose is located
+-- This function returns information about the shelter in which the animal you chose is located
 CREATE OR REPLACE FUNCTION fn_get_shelter_location_and_see_the_animal(
 	animal_name VARCHAR,
 	staff_phone_number VARCHAR
