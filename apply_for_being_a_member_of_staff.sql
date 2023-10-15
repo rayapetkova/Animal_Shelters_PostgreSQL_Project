@@ -46,7 +46,7 @@ $$
 			 INSERT INTO staff(first_name, last_name, email, phone_number, shelter_id)
 			 VALUES (person_first_name, person_last_name, person_email, person_phone_number, animal_shelter_id);
 
-			 RAISE NOTICE 'You are now a member of the staff in "%" shelter!', shelter_name;
+			RAISE NOTICE 'You are now a member of the staff in "%" shelter!', shelter_name;
 		 ELSE
 		 	RAISE NOTICE 'You cannot be a member of the staff in "%" shelter because you do not love animals', shelter_name;
 		 END IF;
